@@ -1,2 +1,2 @@
 # Cryptocurrency-Tracker-App
-ViteJs + react
+A cryptocurrency app using react + vitejs
