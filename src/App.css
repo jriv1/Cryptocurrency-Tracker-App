@@ -1,0 +1,8 @@
+.cryptoCard{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.nameOfApp{
+  margin: 2.5rem;
+}
