@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width:700px) {
    
         .cryptoI{
             justify-content:space-evenly;
@@ -22,14 +22,9 @@
             height: 40px;
            
            }
-      
     
-        
-
-
-
   }
-  @media screen and (min-width: 600px){
+  @media screen and (min-width: 700px){
     .cryptoImage{
         width: 80px;
         height: 80px;
@@ -62,8 +57,8 @@
 
 body{
     background-color: black;
-    color: white;
-}
+ 
+} 
 
 
 .cryptoInfo{
@@ -78,6 +73,7 @@ body{
     border-radius: 6px;
     align-items: center;
     width: 100vw;
+    color: white;
   
 
 }
@@ -92,9 +88,8 @@ body{
 .cryptoI > p{
     width: 6rem;
 }
-/* .cryptoPrice{
-    margin-right: auto;
-} */
+
+
 .nameSymbol{
     display: flex;
     flex-direction: column;  

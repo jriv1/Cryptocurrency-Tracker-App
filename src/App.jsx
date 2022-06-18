@@ -29,6 +29,12 @@ function App() {
     <div className="App">
       <header className="App-header">  
         <h1 className='nameOfApp'>CryptoTracker</h1>
+        
+          <a  className="togglebtn">
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        </a>
       </header>
     
               <div className='cryptoCard'>

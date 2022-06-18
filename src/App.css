@@ -4,5 +4,59 @@
  
 }
 .nameOfApp{
-  margin: 2.5rem;
+  margin:2.4rem .75rem;
+  color: white;
+  transition: 1s;
+  animation-name: price;
+  animation-play-state: running;
+ 
+}
+@keyframes price{
+  0%{
+      opacity: 0;
+        
+  }
+  25%{
+      opacity: 15;    
+  }
+  50%{
+      opacity: 40;   
+  }
+  75%{
+      opacity: 75;          
+  }
+  100%{
+      opacity: 100;
+  }
+}
+
+ 
+  
+
+.togglebtn{
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  display: none;
+  flex-direction:column ;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+
+  }
+
+.togglebtn .bar
+{
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 100%;
+
+}
+
+@media(max-width:600px){
+  .togglebtn{
+      display: flex;
+  
+  }
 }
